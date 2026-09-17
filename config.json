@@ -1,7 +1,7 @@
 {
   "holdings_refresh_seconds": 60,
   "report_interval_seconds": 3600,
-  "news_lookback_hours": 168,
+  "news_lookback_hours": 48,
   "yahoo_overrides": {},
   "macro_symbols": ["^GSPC", "^VIX", "^TNX", "DX-Y.NYB", "CL=F", "KRW=X", "^N225", "^HSI"],
   "fred_series": ["DGS2", "DGS10", "FEDFUNDS", "CPIAUCSL", "UNRATE", "GDPC1"],

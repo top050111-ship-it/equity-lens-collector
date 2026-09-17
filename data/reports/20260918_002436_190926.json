@@ -1,0 +1,1185 @@
+{
+  "portfolio": {
+    "status": "failed",
+    "report": {
+      "summary": "분석을 완료하지 못했습니다.",
+      "findings": [],
+      "conflicts": [],
+      "watchlist": [],
+      "limitations": [
+        "모델 호출/출력 검증 실패: NetworkError"
+      ]
+    }
+  },
+  "macro": {
+    "status": "failed",
+    "report": {
+      "summary": "분석을 완료하지 못했습니다.",
+      "findings": [],
+      "conflicts": [],
+      "watchlist": [],
+      "limitations": [
+        "모델 호출/출력 검증 실패: NetworkError"
+      ]
+    }
+  },
+  "synthesis": {
+    "status": "failed",
+    "report": {
+      "summary": "분석을 완료하지 못했습니다.",
+      "findings": [],
+      "conflicts": [],
+      "watchlist": [],
+      "limitations": [
+        "모델 호출/출력 검증 실패: NetworkError"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "E8ad1abb150cd",
+      "provider": "Toss Securities",
+      "title": "RKLB 시세",
+      "url": "https://openapi.tossinvest.com/api/v1/prices?symbols=RKLB",
+      "content": "67.7108 USD; Toss REST",
+      "observed_at": "2026-09-17T23:47:49.000+09:00",
+      "retrieved_at": "2026-09-17T14:47:50.281211+00:00",
+      "kind": "quote",
+      "symbols": [
+        "RKLB"
+      ],
+      "quality": "최근 관측"
+    },
+    {
+      "id": "E20737a1c86cc",
+      "provider": "Toss Securities",
+      "title": "SPCX 시세",
+      "url": "https://openapi.tossinvest.com/api/v1/prices?symbols=SPCX",
+      "content": "153.835 USD; Toss REST",
+      "observed_at": "2026-09-17T23:47:49.000+09:00",
+      "retrieved_at": "2026-09-17T14:47:50.283640+00:00",
+      "kind": "quote",
+      "symbols": [
+        "SPCX"
+      ],
+      "quality": "최근 관측"
+    },
+    {
+      "id": "E064850522b90",
+      "provider": "Toss Securities",
+      "title": "SCHD 시세",
+      "url": "https://openapi.tossinvest.com/api/v1/prices?symbols=SCHD",
+      "content": "33.865 USD; Toss REST",
+      "observed_at": "2026-09-17T23:47:49.000+09:00",
+      "retrieved_at": "2026-09-17T14:47:50.283681+00:00",
+      "kind": "quote",
+      "symbols": [
+        "SCHD"
+      ],
+      "quality": "최근 관측"
+    },
+    {
+      "id": "E999b38e76431",
+      "provider": "Toss Securities",
+      "title": "URA 시세",
+      "url": "https://openapi.tossinvest.com/api/v1/prices?symbols=URA",
+      "content": "42.56 USD; Toss REST",
+      "observed_at": "2026-09-17T23:47:49.000+09:00",
+      "retrieved_at": "2026-09-17T14:47:50.283712+00:00",
+      "kind": "quote",
+      "symbols": [
+        "URA"
+      ],
+      "quality": "최근 관측"
+    },
+    {
+      "id": "E62dac9bb033b",
+      "provider": "Toss Securities",
+      "title": "005930 시세",
+      "url": "https://openapi.tossinvest.com/api/v1/prices?symbols=005930",
+      "content": "256000 KRW; Toss REST",
+      "observed_at": "2026-09-17T19:59:59.000+09:00",
+      "retrieved_at": "2026-09-17T14:47:50.280006+00:00",
+      "kind": "quote",
+      "symbols": [
+        "005930"
+      ],
+      "quality": "오래된 관측 또는 휴장"
+    },
+    {
+      "id": "E7edb91a90442",
+      "provider": "Toss Securities",
+      "title": "000660 시세",
+      "url": "https://openapi.tossinvest.com/api/v1/prices?symbols=000660",
+      "content": "1766000 KRW; Toss REST",
+      "observed_at": "2026-09-17T19:59:59.000+09:00",
+      "retrieved_at": "2026-09-17T14:47:50.281065+00:00",
+      "kind": "quote",
+      "symbols": [
+        "000660"
+      ],
+      "quality": "오래된 관측 또는 휴장"
+    },
+    {
+      "id": "E81e0d86d7564",
+      "provider": "Yahoo Finance",
+      "title": "SPCX 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/SPCX/",
+      "content": "{\"regularMarketPrice\": 153.79, \"regularMarketPreviousClose\": 150.88, \"regularMarketVolume\": 39784627, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 0}",
+      "observed_at": "2026-09-17T14:48:02+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.472352+00:00",
+      "kind": "quote",
+      "symbols": [
+        "SPCX"
+      ],
+      "quality": "최근 관측",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "Eff04c066af9f",
+      "provider": "Yahoo Finance",
+      "title": "RKLB 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/RKLB/",
+      "content": "{\"regularMarketPrice\": 67.69, \"regularMarketPreviousClose\": 63.7, \"regularMarketVolume\": 8527127, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 0}",
+      "observed_at": "2026-09-17T14:48:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.691631+00:00",
+      "kind": "quote",
+      "symbols": [
+        "RKLB"
+      ],
+      "quality": "최근 관측",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "E6d8243f9cd70",
+      "provider": "Yahoo Finance",
+      "title": "SCHD 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/SCHD/",
+      "content": "{\"regularMarketPrice\": 33.855, \"regularMarketPreviousClose\": 33.84, \"regularMarketVolume\": 6644697, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 0}",
+      "observed_at": "2026-09-17T14:48:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.050762+00:00",
+      "kind": "quote",
+      "symbols": [
+        "SCHD"
+      ],
+      "quality": "최근 관측",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "E0adc699c5c8c",
+      "provider": "Yahoo Finance",
+      "title": "URA 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/URA/",
+      "content": "{\"regularMarketPrice\": 42.55, \"regularMarketPreviousClose\": 41.37, \"regularMarketVolume\": 771983, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 0}",
+      "observed_at": "2026-09-17T14:48:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.396802+00:00",
+      "kind": "quote",
+      "symbols": [
+        "URA"
+      ],
+      "quality": "최근 관측",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "Ea45630c83220",
+      "provider": "24/7 Wall St.",
+      "title": "What to Watch: KCHP",
+      "url": "https://247wallst.com/investing/etf/2026/09/17/what-to-watch-kchp/",
+      "content": "The KICK Korea Semiconductor Index ETF (NYSEARCA:KCHP) began trading on September 15, 2026 as the first fund in a new KICK ETFs family from Exchange Traded Concepts and Kiwoom Securities (USA), giving U.S. investors focused access to Korea’s chip complex in a single wrapper. With only two trading days of trading history and a closing […]",
+      "observed_at": "2026-09-17T14:40:35+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.128055+00:00",
+      "kind": "news",
+      "symbols": [
+        "000660.KS",
+        "005930.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E8d6db2e14d97",
+      "provider": "Investor's Business Daily",
+      "title": "Stock Market Today: Nasdaq Charges Higher On Amazon Deal; This Homebuilder Misses Views (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-fed-reaction-generac-nebius-bloom-energy-spacex/?src=A00220&yptr=yahoo",
+      "content": "Stocks rebounded with the Nasdaq and S&P 500 jumping back above key support. Generac, Nebius, Bloom Energy, SpaceX were early winners.",
+      "observed_at": "2026-09-17T14:19:48+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.838864+00:00",
+      "kind": "news",
+      "symbols": [
+        "SPCX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ec199e2b30aa5",
+      "provider": "Benzinga Prediction Markets",
+      "title": "SpaceX Is Worth $2 Trillion. Why Does Its Stock Swing Like a Small-Cap?",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61844008/spacex-stock-volatility-small-cap-float",
+      "content": "Elon Musk‘s SpaceX (NASDAQ:SPCX) has a market cap of about $2 trillion, but its stock doesn’t trade like it. Over the past 22 trading sessions, the gap between SpaceX’s daily high and low averaged 4.53% of its closing price. That...",
+      "observed_at": "2026-09-17T14:00:11+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.838969+00:00",
+      "kind": "news",
+      "symbols": [
+        "RKLB",
+        "SPCX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E73aa7a0aca55",
+      "provider": "24/7 Wall St.",
+      "title": "Can SpaceX Really Turn Starlink Into a $1 Trillion Business? Ron Baron Has $25 Billion Riding on Yes",
+      "url": "https://247wallst.com/investing/2026/09/17/can-spacex-really-turn-starlink-into-a-1-trillion-business-ron-baron-has-25-billion-riding-on-yes/",
+      "content": "Ron Baron has $25 billion in SpaceX shares and a projection that Starlink alone hits $1 trillion in revenue, but the math holding that forecast together rests on a single unproven assumption about AI that deserves far more scrutiny than it has received.",
+      "observed_at": "2026-09-17T13:30:26+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.839042+00:00",
+      "kind": "news",
+      "symbols": [
+        "SPCX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ebce9caf61677",
+      "provider": "Zacks",
+      "title": "Company News for Sep 17, 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-17-2026-131800270.html",
+      "content": "Companies in The News Are: TCOM, FANG, GS, SPCX",
+      "observed_at": "2026-09-17T13:18:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.839109+00:00",
+      "kind": "news",
+      "symbols": [
+        "SPCX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E8b0cc030b15a",
+      "provider": "Benzinga",
+      "title": "SK Hynix Stock Rises as Intel Ohio Talks Reignite Memory Trade",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stock-rises-intel-130117468.html",
+      "content": "Shares of SK Hynix Inc. (NASDAQ:SKHY) rose 3.5% to $181.00 in Thursday premarket trading, clawing back the entire advance the stock surrendered a day earlier as investors reconsidered a reported manufacturing tie-up with Intel Corp. (NASDAQ:INTC). Intel added 3.1% to $104.18 before the bell, building on Wednesday’s 4.0% close at $101.05. Reuters reported Wednesday, citing three people familiar with the discussions, that SK Hynix is in early talks with Intel about manufacturing memory chips on U.",
+      "observed_at": "2026-09-17T13:01:17+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.114505+00:00",
+      "kind": "news",
+      "symbols": [
+        "000660.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E58923a580389",
+      "provider": "Motley Fool",
+      "title": "SpaceX Investors Just Got Some Bad News From Anthropic Founder Dario Amodei",
+      "url": "https://www.fool.com/investing/2026/09/17/spacex-investors-bad-news-anthropic-dario-amodei/",
+      "content": "The pace of artificial intelligence (AI) development might be set for a slowdown.",
+      "observed_at": "2026-09-17T12:37:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.839186+00:00",
+      "kind": "news",
+      "symbols": [
+        "SPCX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E0ca9383d4e7d",
+      "provider": "Barrons.com",
+      "title": "Why Micron Stock Is Rising as Intel CEO Issues Memory-Chip Warning",
+      "url": "https://www.barrons.com/articles/micron-stock-price-intel-memory-chips-b0eca0f2?siteid=yhoof2&yptr=yahoo",
+      "content": "Micron Technology stock was back on the rise early Thursday. A warning from the head of Intel about soaring memory prices looks to be reminding shareholders of the company’s profit potential. Micron shares were up 2% at $945.40 in premarket trading.",
+      "observed_at": "2026-09-17T12:34:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.114611+00:00",
+      "kind": "news",
+      "symbols": [
+        "000660.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ef96e7cc7d557",
+      "provider": "Yahoo Finance",
+      "title": "Top strategist thinks the Federal Reserve interest rate hike won't fix this huge earnings risk",
+      "url": "https://finance.yahoo.com/markets/article/top-strategist-thinks-the-federal-reserve-interest-rate-hike-wont-fix-this-huge-earnings-risk-121619669.html",
+      "content": "Eyes still on memory chips.",
+      "observed_at": "2026-09-17T12:16:19+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.127952+00:00",
+      "kind": "news",
+      "symbols": [
+        "005930.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ed690fd92e14a",
+      "provider": "Barrons.com",
+      "title": "SpaceX Stock Rises Again. AI Demand Isn’t Slowing Down.",
+      "url": "https://www.barrons.com/articles/spacex-stock-price-ai-demand-a5e66ad2?siteid=yhoof2&yptr=yahoo",
+      "content": "AI demand just isn’t slowing down, and SpaceX stock was up again early Thursday. Shares of Elon Musk’s rocket and AI company were up 1.5% at $153.08 in premarket trading, while and futures were up 0.8% and 0.7%, respectively. SpaceX scheduled the 14th test flight for its huge, fully reusable rocket, Starship, which might have helped.",
+      "observed_at": "2026-09-17T11:59:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.839278+00:00",
+      "kind": "news",
+      "symbols": [
+        "000660.KS",
+        "SPCX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E0bb8719828c8",
+      "provider": "Quartz",
+      "title": "U.S. semiconductor industry faces shortage of 157,000 workers by 2030",
+      "url": "https://qz.com/us-semiconductor-worker-shortage-157000-samsung-micron-091726",
+      "content": "Samsung and Micron are racing to staff new U.S. fabs as only 3% of engineering graduates enter the chip industry each year",
+      "observed_at": "2026-09-17T11:54:19+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.128123+00:00",
+      "kind": "news",
+      "symbols": [
+        "005930.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E309e6f5c8125",
+      "provider": "Motley Fool",
+      "title": "Here's Exactly How Much You'd Need to Invest in SCHD to Build $500 Per Month in Passive Dividend Income",
+      "url": "https://www.fool.com/investing/2026/09/17/heres-exactly-how-much-youd-need-to-invest-in-schd/",
+      "content": "There are multiple ways to build toward a $500 monthly income stream from SCHD.",
+      "observed_at": "2026-09-17T11:50:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.398860+00:00",
+      "kind": "news",
+      "symbols": [
+        "SCHD"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E09d743508a12",
+      "provider": "Verdict",
+      "title": "SK Hynix and Intel explore US memory chip partnership",
+      "url": "https://www.verdict.co.uk/sk-hynix-intel-us-chip-partnership/",
+      "content": "Talks between SK Hynix and Intel could lead to joint memory chip manufacturing at the latter’s Ohio facility.",
+      "observed_at": "2026-09-17T11:47:25+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.114764+00:00",
+      "kind": "news",
+      "symbols": [
+        "000660.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E0ecf5c1a55cd",
+      "provider": "MT Newswires",
+      "title": "Update: Market Chatter: US, Vietnam Firms Set to Announce Deals During To Lam Visit",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-us-vietnam-firms-113310368.html",
+      "content": "(Updates with Citi's comment in the seventh paragraph.) US and Vietnamese companies are expected",
+      "observed_at": "2026-09-17T11:33:10+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.839339+00:00",
+      "kind": "news",
+      "symbols": [
+        "SPCX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ebe143a3f7e23",
+      "provider": "Simply Wall St.",
+      "title": "Intel (INTC) Could Be 80% Undervalued After SK Hynix Fab Talks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-could-80-undervalued-111157517.html",
+      "content": "Intel (INTC) is back in focus after reports of talks with SK Hynix on using Intel’s U.S. fabs for memory production, a potential shift that directly links the chipmaker’s foundry ambitions with AI-driven demand. The latest report of talks with SK Hynix comes after a stretch of mixed trading for Intel, with a 1-day share price return of 4.03% and a 30-day share price return of 4.51%, but a 90-day share price return that has fallen 24.58%. Despite that pullback, momentum over the past year has...",
+      "observed_at": "2026-09-17T11:11:57+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.114868+00:00",
+      "kind": "news",
+      "symbols": [
+        "000660.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E959370d705fe",
+      "provider": "The Wall Street Journal",
+      "title": "Samsung Fans Are Thoroughly Unimpressed by Apple’s Foldable Phone",
+      "url": "https://www.wsj.com/tech/samsung-fans-are-thoroughly-unimpressed-by-apples-foldable-phone-0e6652fc?siteid=yhoof2&yptr=yahoo",
+      "content": "Rasheed Richmond has owned several Samsung foldable phones. The 48-year-old tech CEO in Los Angeles has tried to persuade people to try Samsung’s version. “So far, so same,” one of Samsung’s social-media accounts said.",
+      "observed_at": "2026-09-17T09:30:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.128228+00:00",
+      "kind": "news",
+      "symbols": [
+        "005930.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E8d294aeaa29d",
+      "provider": "Yahoo Finance",
+      "title": "000660.KS 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "content": "{\"regularMarketPrice\": 1745000.0, \"regularMarketPreviousClose\": 1759000.0, \"regularMarketVolume\": 2803398, \"currency\": \"KRW\", \"marketState\": \"POSTPOST\", \"exchangeDataDelayedBy\": 20}",
+      "observed_at": "2026-09-17T06:30:13+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.327720+00:00",
+      "kind": "quote",
+      "symbols": [
+        "000660.KS"
+      ],
+      "quality": "오래된 관측 또는 휴장",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "E33b216ec7d7d",
+      "provider": "Yahoo Finance",
+      "title": "005930.KS 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/005930.KS/",
+      "content": "{\"regularMarketPrice\": 252500.0, \"regularMarketPreviousClose\": 253500.0, \"regularMarketVolume\": 12925345, \"currency\": \"KRW\", \"marketState\": \"POSTPOST\", \"exchangeDataDelayedBy\": 20}",
+      "observed_at": "2026-09-17T06:30:12+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.325408+00:00",
+      "kind": "quote",
+      "symbols": [
+        "005930.KS"
+      ],
+      "quality": "오래된 관측 또는 휴장",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "Ebcbd6356a630",
+      "provider": "Simply Wall St.",
+      "title": "Samsung Electronics (KOSE:A005930) Deepens AI Push In Chip Manufacturing",
+      "url": "https://finance.yahoo.com/technology/ai/articles/samsung-electronics-kose-a005930-deepens-042847241.html",
+      "content": "Samsung Electronics (KOSE:A005930) agreed a new collaboration with Mistral AI to deploy advanced on-premises AI models in chip manufacturing. The company expanded its partnership with ASML to include High NA EUV lithography for future memory and logic production lines. Samsung plans to use these AI and High NA EUV tools to support precision, security and efficiency in its semiconductor operations. The expanded AI work with Mistral AI and the closer ASML High NA EUV collaboration deserves...",
+      "observed_at": "2026-09-17T04:28:47+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.128317+00:00",
+      "kind": "news",
+      "symbols": [
+        "005930.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E5d2ee20a7d39",
+      "provider": "Stocktwits",
+      "title": "RKLB Stock Eyes Ending 5-Week Slide: Iridium Deal Clears First FCC Hurdle, VC Backer Hails Solar Breakthrough",
+      "url": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-iridium-deal-fcc-hurdle-vc-backer-solar-breakthrough/cZtr9VxRB53",
+      "content": "Iridium shareholders will vote Sept.24 on the $8.1 billion deal, which is expected to close in mid-2027.",
+      "observed_at": "2026-09-17T03:39:28+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.448376+00:00",
+      "kind": "news",
+      "symbols": [
+        "RKLB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ec60955e58891",
+      "provider": "24/7 Wall St.",
+      "title": "SPHD and SCHD Both Promise High Dividends, Yet One Has Barely Made Investors Any Money in a Decade",
+      "url": "https://247wallst.com/investing/etf/2026/09/16/sphd-and-schd-both-promise-high-dividends-yet-one-has-barely-made-investors-any-money-in-a-decade/",
+      "content": "SPHD and SCHD both court dividend investors with promises of reliable income from established U.S. companies, yet a decade of returns reveals a stunning divide hiding beneath their nearly identical pitches.",
+      "observed_at": "2026-09-17T01:43:59+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.398924+00:00",
+      "kind": "news",
+      "symbols": [
+        "SCHD"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E1b460a281bf2",
+      "provider": "TheStreet",
+      "title": "Intel stock jumps as SK Hynix weighs U.S. memory-chip deal",
+      "url": "https://www.thestreet.com/investing/stocks/intel-stock-jumps-as-sk-hynix-weighs-us-memory-chip-deal",
+      "content": "The reported talks come as Intel seeks more outside demand for its costly U.S. manufacturing network.",
+      "observed_at": "2026-09-17T01:03:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.114981+00:00",
+      "kind": "news",
+      "symbols": [
+        "000660.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ee30d7d6fae29",
+      "provider": "Simply Wall St.",
+      "title": "Samsung Electronics (KOSE:A005930) Moved, What Is Drawing Attention Today?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-kose-a005930-moved-231421780.html",
+      "content": "Samsung Electronics (KOSE:A005930) has been in focus after Bark Technologies launched the new Bark Watch, which is built on the Samsung Galaxy Watch8 platform and highlights fresh demand for kid-focused wearables tied to Samsung hardware. Samsung Electronics has had a choppy few months, with the share price down 7.65% over 30 days and 30.07% over 90 days. At the same time, the year-to-date share price return sits at 97.28%, and the 1-year total shareholder return reaches 228.24%. Scan beyond...",
+      "observed_at": "2026-09-16T23:14:21+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.128399+00:00",
+      "kind": "news",
+      "symbols": [
+        "005930.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E79df8ba06934",
+      "provider": "24/7 Wall St.",
+      "title": "Your Winners Pushed You to 80% Stocks at 68. Sell Them Now or Let Them Ride? These 4 ETFs Make the Trim Painless",
+      "url": "https://247wallst.com/investing/etf/2026/09/16/your-winners-pushed-you-to-80-stocks-at-68-sell-them-now-or-let-them-ride-these-4-etfs-make-the-trim-painless/",
+      "content": "A decade of gains left your portfolio at 80% stocks at age 68, and simply cashing out your winners could trigger a tax bill you never saw coming. Four ETFs offer a smarter path through the tension between staying invested and sleeping at night.",
+      "observed_at": "2026-09-16T21:55:52+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.399012+00:00",
+      "kind": "news",
+      "symbols": [
+        "SCHD"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Efcc8b1a1ea62",
+      "provider": "24/7 Wall St.",
+      "title": "We Checked 14 Dividend ETFs Against SCHD in 2026. Not One Beat It",
+      "url": "https://247wallst.com/investing/etf/2026/09/16/we-checked-14-dividend-etfs-against-schd-in-2026-not-one-beat-it/",
+      "content": "We put 14 dividend ETFs through a head-to-head test against SCHD in 2026, covering total return, dividend growth, and portfolio quality, and every single one came up short. The reasons why reveal something important about where most income investors go wrong.",
+      "observed_at": "2026-09-16T21:35:45+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.399070+00:00",
+      "kind": "news",
+      "symbols": [
+        "SCHD"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ea548bf257c47",
+      "provider": "24/7 Wall St.",
+      "title": "How to Build $2,200 a Month in Dividend Income Starting From Zero",
+      "url": "https://247wallst.com/personal-finance/2026/09/16/how-to-build-2200-a-month-in-dividend-income-starting-from-zero/",
+      "content": "Chasing the highest dividend yield feels like a shortcut to $2,200 a month, but the fund that gets you there fastest can quietly steal the raise you were counting on for the next 20 years.",
+      "observed_at": "2026-09-16T21:27:21+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.399127+00:00",
+      "kind": "news",
+      "symbols": [
+        "SCHD"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ef54532bebb33",
+      "provider": "Trefis",
+      "title": "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?",
+      "url": "https://www.trefis.com/articles/615530/should-you-buy-qualcomm-stock-for-the-cash-as-apple-leaves/2026-09-16",
+      "content": "Qualcomm (QCOM) throws off free cash worth 5.2% of its market value each year, against 4.4% for the median S&P 500 company. A yield above the median means one of two things: a bargain or a business the market expects to shrink. Here it is mostly the second: the cash comes from smartphone chips, and Apple is leaving.",
+      "observed_at": "2026-09-16T19:30:04+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.128482+00:00",
+      "kind": "news",
+      "symbols": [
+        "005930.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ea91ab056eb78",
+      "provider": "24/7 Wall St.",
+      "title": "JEPI Income ETF Stumbles 3% Year-Over-Year, But One Number Is Spooking Investors",
+      "url": "https://247wallst.com/investing/etf/2026/09/16/jepi-income-etf-stumbles-3-year-over-year-but-one-number-is-spooking-investors/",
+      "content": "Retirees anchoring budgets to JEPI's latest monthly check are making a math mistake that costs real money, and the actual income story looks nothing like the number circulating in income forums right now.",
+      "observed_at": "2026-09-16T19:10:20+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.399176+00:00",
+      "kind": "news",
+      "symbols": [
+        "SCHD"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E5176fc0a93d5",
+      "provider": "Yahoo Finance",
+      "title": "SpaceX stock pops ahead of Starship launch",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-pops-ahead-of-starship-launch-180435710.html",
+      "content": "SpaceX stock rose about 5% on Tuesday, coming on the heels of no new news, though a couple catalysts may be at work.",
+      "observed_at": "2026-09-16T18:04:35+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.838731+00:00",
+      "kind": "news",
+      "symbols": [
+        "SPCX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E5fb1a59efecb",
+      "provider": "Motley Fool",
+      "title": "September Effect: 2 Memory Stocks to Buy on a Potential Market Dip",
+      "url": "https://www.fool.com/investing/2026/09/16/september-effect-memory-stocks-buy-market-dip/",
+      "content": "Micron and Sandisk look like two memory stocks to buy, given the current market dynamics.",
+      "observed_at": "2026-09-16T17:42:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.128535+00:00",
+      "kind": "news",
+      "symbols": [
+        "005930.KS"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E0d7fe76e4f7b",
+      "provider": "24/7 Wall St.",
+      "title": "Only 11 of 237 Active Dividend Funds Beat SCHD’s Index",
+      "url": "https://247wallst.com/investing/etf/2026/09/16/only-11-of-237-active-dividend-funds-beat-schds-index/",
+      "content": "A 15-year scorecard just revealed how badly active dividend fund managers fared against a passive benchmark, and the results raise a pointed question about whether the most popular dividend ETF belongs in your portfolio right now.",
+      "observed_at": "2026-09-16T17:35:13+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.399230+00:00",
+      "kind": "news",
+      "symbols": [
+        "SCHD"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ebd7a6e5dfd92",
+      "provider": "24/7 Wall St.",
+      "title": "SpaceX Rises 5% as Starship’s First Orbital Attempt Gets Launch Date; Rocket Lab and AST SpaceMobile Hold Steady",
+      "url": "https://247wallst.com/investing/2026/09/16/spacex-rises-5-as-starships-first-orbital-attempt-gets-launch-date-rocket-lab-and-ast-spacemobile-hold-flat/",
+      "content": "SpaceX stock is surging on a firm date for Starship's most ambitious test yet, but whether the milestone justifies the valuation depends on a single high-stakes question the vehicle has never answered.",
+      "observed_at": "2026-09-16T14:36:18+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.448469+00:00",
+      "kind": "news",
+      "symbols": [
+        "RKLB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E2e3376389b92",
+      "provider": "Zacks",
+      "title": "Can Rocket Lab's Component Portfolio Support Space Market Growth?",
+      "url": "https://finance.yahoo.com/technology/articles/rocket-labs-component-portfolio-support-141600431.html",
+      "content": "RKLB expands its spacecraft component business with avionics, radios and batteries, extending its role across the space supply chain.",
+      "observed_at": "2026-09-16T14:16:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.448533+00:00",
+      "kind": "news",
+      "symbols": [
+        "RKLB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E76d86cc7fcb4",
+      "provider": "Trefis",
+      "title": "What Are You Actually Buying In RKLB Stock?",
+      "url": "https://www.trefis.com/articles/615543/what-are-you-actually-buying-in-rklb-stock/2026-09-16",
+      "content": "Rocket Lab (RKLB) stock has traded between $39.48 and $150.23 over the past 52 weeks. It now sits about 58% below its 52-week high, and anyone who bought twelve months ago is still up about 19%. None of that tells you what you would be buying today. Rocket Lab sells two quite different things, and the one its name points at is the smaller of them.",
+      "observed_at": "2026-09-16T12:18:40+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.448618+00:00",
+      "kind": "news",
+      "symbols": [
+        "RKLB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Efa63b17e6ae4",
+      "provider": "Motley Fool",
+      "title": "Prediction: Rocket Lab's Revenue Tops $1.5 Billion in 2027 Without Counting Iridium",
+      "url": "https://www.fool.com/investing/2026/09/16/prediction-rocket-lab-s-revenue-tops-usd1-5-billion-in-2027-without-counting-iridium/",
+      "content": "Getting there takes about 55% growth next year -- less than the space company is delivering right now.",
+      "observed_at": "2026-09-16T07:58:01+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.448676+00:00",
+      "kind": "news",
+      "symbols": [
+        "RKLB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E0bbc07883226",
+      "provider": "Stocktwits",
+      "title": "RKLB, ASTS, SPCX, RDW Stocks Set For A Boost? Pentagon Confirms Orbital Weapons Use, Ramps Up Golden Dome Plans",
+      "url": "https://stocktwits.com/news-articles/markets/equity/rklb-asts-spcx-rdw-stocks-pentagon-orbital-weapons-golden-dome-plans/cZtYcxMRB2P",
+      "content": "Golden Dome’s space-based interceptor program reached “flight-ready hardware,” with an integrated demonstration targeted for 2028.",
+      "observed_at": "2026-09-16T03:17:54+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.448866+00:00",
+      "kind": "news",
+      "symbols": [
+        "RKLB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Eac381baf547b",
+      "provider": "TheStreet",
+      "title": "SCHD investors sit on a $216,000 gap no statement shows",
+      "url": "https://www.thestreet.com/investing/schd-voo-216000-decade-performance-gap",
+      "content": "The quarterly payout is real, and so is the six-figure gap it obscures.",
+      "observed_at": "2026-09-15T22:33:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.399274+00:00",
+      "kind": "news",
+      "symbols": [
+        "SCHD"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Efd8b2ad82231",
+      "provider": "Zacks",
+      "title": "Rocket Lab Corporation (RKLB) Advances While Market Declines: Some Information for Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-corporation-rklb-advances-221505764.html",
+      "content": "Rocket Lab Corporation (RKLB) closed at $63.55 in the latest trading session, marking a +1.6% move from the prior day.",
+      "observed_at": "2026-09-15T22:15:05+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.449002+00:00",
+      "kind": "news",
+      "symbols": [
+        "RKLB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Eb2c4521097eb",
+      "provider": "Bank of Japan",
+      "title": "Developments in Real Exports and Real Imports",
+      "url": "http://www.boj.or.jp/en/research/research_data/reri/index.htm",
+      "content": "",
+      "observed_at": "2026-09-17T16:00:00+09:00",
+      "retrieved_at": "2026-09-17T14:47:52.414000+00:00",
+      "kind": "news",
+      "content_scope": "RSS 제목·요약; 원문 미확인"
+    },
+    {
+      "id": "E7628200dee92",
+      "provider": "Yahoo Finance",
+      "title": "^GSPC 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/",
+      "content": "{\"regularMarketPrice\": 7623.23, \"regularMarketPreviousClose\": 7551.81, \"regularMarketVolume\": 681802851, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 0}",
+      "observed_at": "2026-09-17T14:48:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.078290+00:00",
+      "kind": "quote",
+      "symbols": [
+        "^GSPC"
+      ],
+      "quality": "최근 관측",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "E1b0ad5536e09",
+      "provider": "Yahoo Finance",
+      "title": "KRW=X 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/KRW%3DX/",
+      "content": "{\"regularMarketPrice\": 1380.97, \"regularMarketPreviousClose\": 1377.39, \"regularMarketVolume\": 0, \"currency\": \"KRW\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 0}",
+      "observed_at": "2026-09-17T14:47:54+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.048379+00:00",
+      "kind": "quote",
+      "symbols": [
+        "KRW=X"
+      ],
+      "quality": "최근 관측",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "E5ff743985bff",
+      "provider": "Reuters",
+      "title": "Dollar eases after Fed-driven jump as Treasury yields and oil prices retreat",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/hawkish-fed-lifts-dollar-seven-055941455.html",
+      "content": "By Saqib Iqbal Ahmed NEW YORK, Sept 17 (Reuters) - The US dollar eased on Thursday, a day after logging its biggest jump in three months after the Federal Reserve hiked rates and signalled further",
+      "observed_at": "2026-09-17T14:42:48+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.238748+00:00",
+      "kind": "news",
+      "symbols": [
+        "CL=F",
+        "DX-Y.NYB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E89cb3e9299d1",
+      "provider": "Yahoo Finance",
+      "title": "CL=F 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/CL%3DF/",
+      "content": "{\"regularMarketPrice\": 100.7, \"regularMarketPreviousClose\": 102.43, \"regularMarketVolume\": 149936, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 10}",
+      "observed_at": "2026-09-17T14:38:03+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.754573+00:00",
+      "kind": "quote",
+      "symbols": [
+        "CL=F"
+      ],
+      "quality": "최근 관측",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "Ee6a2ab172ab2",
+      "provider": "Yahoo Finance",
+      "title": "DX-Y.NYB 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/DX-Y.NYB/",
+      "content": "{\"regularMarketPrice\": 100.13, \"regularMarketPreviousClose\": 100.252, \"regularMarketVolume\": null, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 10}",
+      "observed_at": "2026-09-17T14:37:59+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.303921+00:00",
+      "kind": "quote",
+      "symbols": [
+        "DX-Y.NYB"
+      ],
+      "quality": "최근 관측",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "E99d1e8f3b222",
+      "provider": "Motley Fool",
+      "title": "This High-Yield Dividend Stock's 37-Year Streak of Dividend Increases Makes It a Lifetime Passive Income Machine",
+      "url": "https://www.fool.com/investing/2026/09/17/this-high-yield-dividend-stock-s-37-year-streak-of-dividend-increases-makes-it-a-lifetime-passive-income-machine/",
+      "content": "NNN REIT has the third-longest dividend growth streak in the REIT sector.",
+      "observed_at": "2026-09-17T14:35:01+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.844601+00:00",
+      "kind": "news",
+      "symbols": [
+        "^GSPC"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ecdaf90f739f1",
+      "provider": "Zacks",
+      "title": "Pre-Markets Up on Lower Oil Prices, Strong Data",
+      "url": "https://finance.yahoo.com/economy/articles/pre-markets-lower-oil-prices-143400557.html",
+      "content": "This morning, the Dow is roaring back +626 points, the Nasdaq +468 and the S&P 500 +95 points.",
+      "observed_at": "2026-09-17T14:34:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.844669+00:00",
+      "kind": "news",
+      "symbols": [
+        "^GSPC"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E988aacd3cca6",
+      "provider": "Yahoo Finance",
+      "title": "^TNX 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/",
+      "content": "{\"regularMarketPrice\": 4.947, \"regularMarketPreviousClose\": 5.006, \"regularMarketVolume\": 0, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 0}",
+      "observed_at": "2026-09-17T14:32:54+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.302491+00:00",
+      "kind": "quote",
+      "symbols": [
+        "^TNX"
+      ],
+      "quality": "오래된 관측 또는 휴장",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "Efb12b8b6ee0f",
+      "provider": "Yahoo Finance",
+      "title": "^VIX 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/",
+      "content": "{\"regularMarketPrice\": 15.72, \"regularMarketPreviousClose\": 17.2, \"regularMarketVolume\": 0, \"currency\": \"USD\", \"marketState\": \"REGULAR\", \"exchangeDataDelayedBy\": 0}",
+      "observed_at": "2026-09-17T14:32:46+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.423661+00:00",
+      "kind": "quote",
+      "symbols": [
+        "^VIX"
+      ],
+      "quality": "오래된 관측 또는 휴장",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "E8ee28eea4833",
+      "provider": "Yahoo Finance",
+      "title": "Home contract signings drop 4.7% from last year amid higher mortgage rates",
+      "url": "https://finance.yahoo.com/real-estate/article/home-contract-signings-drop-47-from-last-year-amid-higher-mortgage-rates-141613199.html",
+      "content": "Rising mortgage rates have discouraged prospective homebuyers.",
+      "observed_at": "2026-09-17T14:16:13+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.238569+00:00",
+      "kind": "news",
+      "symbols": [
+        "CL=F"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E663118b98aed",
+      "provider": "Yahoo Finance Video",
+      "title": "There's more pain in store for the bond market. Here's why.",
+      "url": "https://finance.yahoo.com/video/theres-more-pain-store-bond-135516036.html",
+      "content": "Yahoo Finance Executive Editor Brian Sozzi outlines what the Federal Reserve's rate hike decision could mean for Treasury yields (^FVX, ^TNX, ^TYX).",
+      "observed_at": "2026-09-17T13:55:16+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.012664+00:00",
+      "kind": "news",
+      "symbols": [
+        "^TNX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ebab851ba52e8",
+      "provider": "The Wall Street Journal",
+      "title": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-8dfe699f?siteid=yhoof2&yptr=yahoo",
+      "content": "Find insight on LG Display, OpenAI, Soitec and more in the latest Market Talks covering Technology, Media and Telecom.",
+      "observed_at": "2026-09-17T12:46:00+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.134942+00:00",
+      "kind": "news",
+      "symbols": [
+        "DX-Y.NYB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E2650b57bf49d",
+      "provider": "Investing.com",
+      "title": "Wall Street on Fed rate hike: ’As hawkish as it gets’",
+      "url": "https://finance.yahoo.com/economy/policy/articles/wall-street-fed-rate-hike-123110343.html",
+      "content": "Investing.com -- Wall Street analysts described the Federal Reserve's latest interest rate increase as decidedly hawkish, after policymakers signaled more tightening to come.",
+      "observed_at": "2026-09-17T12:31:10+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.135006+00:00",
+      "kind": "news",
+      "symbols": [
+        "DX-Y.NYB"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E12f0d3abd63e",
+      "provider": "Bank of Korea 통계",
+      "title": "2026년 상반기 지식서비스 무역통계(잠정)",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064821&menuNo=201264",
+      "content": "<p>□ 2026년 상반기 중 우리나라의 지식서비스 무역수지는 64.4억달러 적자를 기록</p> <p><br></p> <p>□ 자세한 내용은 (붙임) 참조</p>",
+      "observed_at": "2026-09-17T12:00:00+09:00",
+      "retrieved_at": "2026-09-17T14:47:52.032511+00:00",
+      "kind": "news",
+      "content_scope": "RSS 제목·요약; 원문 미확인"
+    },
+    {
+      "id": "Edb5479e9ba9f",
+      "provider": "Yahoo Personal Finance",
+      "title": "Silver price today, Thursday, September 17, 2026: Silver prices stay steady post Fed decision",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-17-2026-silver-prices-stay-steady-post-fed-decision-112308053.html",
+      "content": "Silver futures opened at $63.42 per ounce on Thursday, September 17, 2026, down 2.3% from Wednesday's closing price. Silver prices are moving back up this morning, reaching $64.57 as of 7:10 a.m. ET.",
+      "observed_at": "2026-09-17T11:23:08+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.238650+00:00",
+      "kind": "news",
+      "symbols": [
+        "CL=F"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E3a9f0c726824",
+      "provider": "The Wall Street Journal",
+      "title": "Why Markets Are in a Good Mood After Yesterday's Rate Hike",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-17-2026/card/why-markets-are-in-a-good-mood-after-yesterday-s-rate-hike-ctIAIVNgTxutUwfDv06Z?siteid=yhoof2&yptr=yahoo",
+      "content": "Stocks and bonds swooned yesterday after the Federal Reserve hiked interest rates for the first time in three years—only to reverse course and charge higher in premarket trading this morning. One explanation, according to Mohit Kumar, Jefferies’ chief European economist: Investors realize they may have overreacted to Fed Chairman Kevin Warsh’s hawkish tone. “I don't think Warsh indicated a series of rate hikes,” Kumar said.",
+      "observed_at": "2026-09-17T11:13:08+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.012878+00:00",
+      "kind": "news",
+      "symbols": [
+        "^TNX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ef921336d388e",
+      "provider": "MT Newswires",
+      "title": "Easing Oil Prices, Higher Interest Rates Cap Asian Stock Markets",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/easing-oil-prices-higher-interest-105747864.html",
+      "content": "Asian stock markets turned in a choppy Thursday, as traders weighed easing petroleum prices but also",
+      "observed_at": "2026-09-17T10:57:47+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.836862+00:00",
+      "kind": "news",
+      "symbols": [
+        "^HSI",
+        "^N225"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ed225891c9c76",
+      "provider": "Bank of Japan",
+      "title": "Flow of Funds Accounts (2nd Quarter 2026, Preliminary Figures)",
+      "url": "http://www.boj.or.jp/en/statistics/sj/sj.htm",
+      "content": "",
+      "observed_at": "2026-09-17T08:50:00+09:00",
+      "retrieved_at": "2026-09-17T14:47:52.414040+00:00",
+      "kind": "news",
+      "content_scope": "RSS 제목·요약; 원문 미확인"
+    },
+    {
+      "id": "Ee19b24baf12a",
+      "provider": "Simply Wall St.",
+      "title": "US Stock Market Today: S&P 500 Futures Edge Higher As Fed Rate Decision Looms",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081238094.html",
+      "content": "The Morning Bull - US Market Morning Update Thursday, Sep, 17 2026 US stock futures are pointing mildly higher this morning, with E-mini S&P 500 contracts up about 0.2%, as investors brace for the Federal Reserve’s first rate hike since 2023. The target range is expected to move to 3.75% to 4.00%, which means loan and mortgage costs could edge up from here. At the same time, the US 10 year Treasury yield is sitting near 5%, a level that keeps pressure on everything from credit cards to...",
+      "observed_at": "2026-09-17T08:12:38+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.012989+00:00",
+      "kind": "news",
+      "symbols": [
+        "^TNX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E0d1168291fb5",
+      "provider": "Yahoo Finance",
+      "title": "^HSI 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/%5EHSI/",
+      "content": "{\"regularMarketPrice\": 24604.29, \"regularMarketPreviousClose\": 24667.2, \"regularMarketVolume\": 0, \"currency\": \"HKD\", \"marketState\": \"POSTPOST\", \"exchangeDataDelayedBy\": 15}",
+      "observed_at": "2026-09-17T08:08:32+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.051192+00:00",
+      "kind": "quote",
+      "symbols": [
+        "^HSI"
+      ],
+      "quality": "오래된 관측 또는 휴장",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "Eec5584d620d4",
+      "provider": "Yahoo Finance",
+      "title": "^N225 정규장 시세",
+      "url": "https://finance.yahoo.com/quote/%5EN225/",
+      "content": "{\"regularMarketPrice\": 64136.25, \"regularMarketPreviousClose\": 63923.0, \"regularMarketVolume\": 0, \"currency\": \"JPY\", \"marketState\": \"POSTPOST\", \"exchangeDataDelayedBy\": 20}",
+      "observed_at": "2026-09-17T06:45:03+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.049079+00:00",
+      "kind": "quote",
+      "symbols": [
+        "^N225"
+      ],
+      "quality": "오래된 관측 또는 휴장",
+      "content_scope": "정규장 관측값; 실시간 보장 없음"
+    },
+    {
+      "id": "Eae99f9c0d179",
+      "provider": "CoinGape",
+      "title": "Ripple Partners SBI and Kyobo Complete Direct Japan-Korea Stablecoin Transfer Pilot",
+      "url": "https://coingape.com/ripple-partners-sbi-and-kyobo-complete-direct-japan-korea-stablecoin-transfer-pilot/",
+      "content": "Ripple’s long-term ally SBI Group and latest partner Kyobo Life Insurance completed the Japan-South Korea stablecoin-based cross-border proof-of-concept project. The firms performed a direct transfer between Japanese yen (JPY) and Korean won (KRW) stablecoins without relying on the US dollar as an intermediary currency. Ad Ad SBI Group Tested Cross-Border Stablecoin Payment with Kyobo Japan’s",
+      "observed_at": "2026-09-17T06:21:36+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.427274+00:00",
+      "kind": "news",
+      "symbols": [
+        "KRW=X"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Eda3bcbb85f45",
+      "provider": "Federal Reserve",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "content": "Federal Reserve issues FOMC statement",
+      "observed_at": "2026-09-16T18:00:00+00:00",
+      "retrieved_at": "2026-09-17T14:47:50.666500+00:00",
+      "kind": "news",
+      "content_scope": "RSS 제목·요약; 원문 미확인"
+    },
+    {
+      "id": "E7400cab4847e",
+      "provider": "Federal Reserve",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "content": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "observed_at": "2026-09-16T18:00:00+00:00",
+      "retrieved_at": "2026-09-17T14:47:50.666555+00:00",
+      "kind": "news",
+      "content_scope": "RSS 제목·요약; 원문 미확인"
+    },
+    {
+      "id": "E1e747af4f507",
+      "provider": "Yahoo Finance",
+      "title": "Fed raises interest rates by a quarter point in unanimous decision, marking first hike in 3 years",
+      "url": "https://finance.yahoo.com/economy/policy/article/fed-raises-interest-rates-by-a-quarter-point-in-unanimous-decision-marking-first-hike-in-3-years-171212149.html",
+      "content": "Wall Street was overwhelmingly expecting the Federal Reserve to raise interest rates for the first time in more than three years.",
+      "observed_at": "2026-09-16T17:12:12+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.238701+00:00",
+      "kind": "news",
+      "symbols": [
+        "CL=F"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E0e4c0eee55f9",
+      "provider": "Bank of Japan",
+      "title": "BOJ Current Account Balances by Sector (Aug.)",
+      "url": "http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx",
+      "content": "",
+      "observed_at": "2026-09-16T17:00:00+09:00",
+      "retrieved_at": "2026-09-17T14:47:52.414065+00:00",
+      "kind": "news",
+      "content_scope": "RSS 제목·요약; 원문 미확인"
+    },
+    {
+      "id": "Ebada8ddba933",
+      "provider": "Barrons.com",
+      "title": "Wall Street Fear Index Slips Ahead of Fed Rate Decision",
+      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/wall-street-fear-index-slips-ahead-of-fed-rate-decision-lWRGnbHzUVwP7U5GeALa?siteid=yhoof2&yptr=yahoo",
+      "content": "The most widely followed gauge of market fear and uncertainty was sliding on Wednesday, suggesting investors were feeling a little calmer ahead of the Federal Reserve's interest-rate decision. The Cboe Volatility Index, or VIX, slipped 0.",
+      "observed_at": "2026-09-16T11:37:32+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.144408+00:00",
+      "kind": "news",
+      "symbols": [
+        "^VIX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E2612ad715a33",
+      "provider": "MT Newswires",
+      "title": "Softer Oil, Tech Gains Lift Asian Stock Markets",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/softer-oil-tech-gains-lift-103902083.html",
+      "content": "Asian stock markets turned positive Wednesday, as petroleum prices cooled, and tech issues regained",
+      "observed_at": "2026-09-16T10:39:02+00:00",
+      "retrieved_at": "2026-09-17T14:48:04.836942+00:00",
+      "kind": "news",
+      "symbols": [
+        "^HSI",
+        "^N225"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "Ec8cdb037ff9b",
+      "provider": "Yahoo Finance",
+      "title": "Federal Reserve interest rate hikes usually pound stocks, but then something surprising happens",
+      "url": "https://finance.yahoo.com/economy/article/federal-reserve-interest-rate-hikes-usually-pound-stocks-but-then-something-surprising-happens-100449563.html",
+      "content": "A helpful reminder on Fed day.",
+      "observed_at": "2026-09-16T10:04:49+00:00",
+      "retrieved_at": "2026-09-17T14:48:02.844537+00:00",
+      "kind": "news",
+      "symbols": [
+        "^GSPC"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E32d3cbc35db3",
+      "provider": "ECB",
+      "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
+      "content": "",
+      "observed_at": "2026-09-16T10:00:00+02:00",
+      "retrieved_at": "2026-09-17T14:47:52.593059+00:00",
+      "kind": "news",
+      "content_scope": "RSS 제목·요약; 원문 미확인"
+    },
+    {
+      "id": "E37067d96bc51",
+      "provider": "Yahoo Finance",
+      "title": "Stock market today: Dow sinks 600 points, S&P 500 and Nasdaq fall as Fed hikes rates, bond yields rise",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
+      "content": "Stocks digested an expected Fed rate hike as oil prices and Treasurys continued to exert pressure.",
+      "observed_at": "2026-09-16T08:03:56+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.012753+00:00",
+      "kind": "news",
+      "symbols": [
+        "^GSPC",
+        "^TNX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    },
+    {
+      "id": "E5ac98a86720a",
+      "provider": "GuruFocus.com",
+      "title": "Goldman Sachs Sees Market Fear Vanish at Risky Moment",
+      "url": "https://finance.yahoo.com/markets/articles/goldman-sachs-sees-market-fear-202111495.html",
+      "content": "Investors may be getting calmer at an awkward time",
+      "observed_at": "2026-09-15T20:21:11+00:00",
+      "retrieved_at": "2026-09-17T14:48:03.144485+00:00",
+      "kind": "news",
+      "symbols": [
+        "^VIX"
+      ],
+      "content_scope": "Yahoo 제공 제목·요약; 종목 관련성 추가 확인 필요"
+    }
+  ],
+  "warnings": [
+    "005930: 오래된 관측 또는 휴장",
+    "000660: 오래된 관측 또는 휴장",
+    "FRED_API_KEY 미설정: 정량 경제지표 수집 생략. 뉴스로 수치를 추정하지 마세요."
+  ],
+  "created_at": "2026-09-17T15:24:36.036876+00:00",
+  "complete": false,
+  "model": {
+    "backend": "ollama",
+    "model": "qwen3:4b"
+  }
+}
