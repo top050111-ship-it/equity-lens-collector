@@ -53,7 +53,7 @@ def run(config):
     quotes.start()
     future, job_id = None, None
     next_holdings, next_report = time.monotonic() + config['holdings_refresh_seconds'], 0
-    pending = {}
+    pending: dict[str, object] = {}
     failures = 0
     try:
         with ThreadPoolExecutor(max_workers=1) as pool:
@@ -77,7 +77,8 @@ def run(config):
                         report = future.result()
                         pending = {'report': report}
                         if job_id:
-                            pending.update(job_id=job_id, job_status='complete' if report['complete'] else 'partial')
+                            pending['job_id'] = job_id
+                            pending['job_status'] = 'complete' if report['complete'] else 'partial'
                     except Exception as exc:
                         print('분석 실패:', type(exc).__name__, flush=True)
                         pending = {'job_id': job_id, 'job_status': 'failed'} if job_id else {}
@@ -87,7 +88,7 @@ def run(config):
                 try:
                     response = request(endpoint, timeout=20, headers={'Authorization': 'Bearer ' + token},
                                        body={'snapshot': site_packet(valued), 'worker_status': state, **pending})
-                    if not response.get('ok'):
+                    if not isinstance(response, dict) or not response.get('ok'):
                         raise ValueError('site response')
                     pending = {}
                     failures = 0
