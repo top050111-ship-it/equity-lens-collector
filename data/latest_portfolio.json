@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-17T07:19:56.565749+00:00",
+  "as_of": "2026-09-17T09:02:22.946713+00:00",
   "positions": [
     {
       "symbol": "005930",
@@ -8,13 +8,13 @@
       "currency": "KRW",
       "quantity": "38",
       "average_price": "363276.315789",
-      "price": "254500",
-      "price_at": "2026-09-17T16:19:55.000+09:00",
+      "price": "255000",
+      "price_at": "2026-09-17T18:02:21.000+09:00",
       "price_source": "Toss REST",
-      "broker_value": "9671000",
+      "broker_value": "9690000",
       "price_quality": "최근 관측",
-      "value_krw": "9671000",
-      "weight_pct": 9.035299580533284
+      "value_krw": "9690000",
+      "weight_pct": 9.017695034017915
     },
     {
       "symbol": "000660",
@@ -23,13 +23,13 @@
       "currency": "KRW",
       "quantity": "11",
       "average_price": "1595857.181818",
-      "price": "1757000",
-      "price_at": "2026-09-17T16:19:55.000+09:00",
+      "price": "1763000",
+      "price_at": "2026-09-17T18:02:21.000+09:00",
       "price_source": "Toss REST",
-      "broker_value": "19327000",
+      "broker_value": "19393000",
       "price_quality": "최근 관측",
-      "value_krw": "19327000",
-      "weight_pct": 18.05658515075657
+      "value_krw": "19393000",
+      "weight_pct": 18.047488110909125
     },
     {
       "symbol": "RKLB",
@@ -38,13 +38,13 @@
       "currency": "USD",
       "quantity": "220",
       "average_price": "105.35539",
-      "price": "64.73",
-      "price_at": "2026-09-17T16:19:44.000+09:00",
+      "price": "64.99",
+      "price_at": "2026-09-17T18:01:52.000+09:00",
       "price_source": "Toss REST",
-      "broker_value": "14240.6",
+      "broker_value": "14297.8",
       "price_quality": "최근 관측",
-      "value_krw": "19671964.840",
-      "weight_pct": 18.378874539046375
+      "value_krw": "19806456.3840",
+      "weight_pct": 18.43225834628372
     },
     {
       "symbol": "SPCX",
@@ -53,13 +53,13 @@
       "currency": "USD",
       "quantity": "45",
       "average_price": "178.928236",
-      "price": "152.84",
-      "price_at": "2026-09-17T16:19:55.000+09:00",
+      "price": "153.18",
+      "price_at": "2026-09-17T18:02:20.000+09:00",
       "price_source": "Toss REST",
-      "broker_value": "6878.25",
+      "broker_value": "6891.3",
       "price_quality": "최근 관측",
-      "value_krw": "9500992.920",
-      "weight_pct": 8.87646751574043
+      "value_krw": "9548873.5680",
+      "weight_pct": 8.886360139795514
     },
     {
       "symbol": "SCHD",
@@ -68,13 +68,13 @@
       "currency": "USD",
       "quantity": "670",
       "average_price": "32.982132",
-      "price": "34.01",
-      "price_at": "2026-09-17T16:19:33.000+09:00",
+      "price": "33.9605",
+      "price_at": "2026-09-17T18:02:21.000+09:00",
       "price_source": "Toss REST",
-      "broker_value": "22786.7",
+      "broker_value": "22753.2",
       "price_quality": "최근 관측",
-      "value_krw": "31477547.380",
-      "weight_pct": 29.4084449011199
+      "value_krw": "31520016.964800",
+      "weight_pct": 29.333116662088486
     },
     {
       "symbol": "URA",
@@ -83,28 +83,30 @@
       "currency": "USD",
       "quantity": "300.254731",
       "average_price": "48.462062",
-      "price": "41.92",
-      "price_at": "2026-09-17T16:07:58.000+09:00",
+      "price": "42.0666",
+      "price_at": "2026-09-17T17:35:07.000+09:00",
       "price_source": "Toss REST",
-      "broker_value": "12586.678323",
-      "price_quality": "최근 관측",
-      "value_krw": "17387237.436110528",
-      "weight_pct": 16.24432831280344
+      "broker_value": "12628.713985",
+      "price_quality": "오래된 관측 또는 휴장",
+      "value_krw": "17497050.093698954688",
+      "weight_pct": 16.28308170690524
     }
   ],
   "fx": {
     "baseCurrency": "USD",
     "quoteCurrency": "KRW",
-    "rate": "1381.7",
-    "midRate": "1381.4",
-    "basisPoint": "2",
+    "rate": "1385.78",
+    "midRate": "1385.28",
+    "basisPoint": "4",
     "rateChangeType": "DOWN",
-    "validFrom": "2026-09-17T16:18:45.000+09:00",
-    "validUntil": "2026-09-17T16:23:43.000+09:00"
+    "validFrom": "2026-09-17T18:01:45.000+09:00",
+    "validUntil": "2026-09-17T18:06:40.000+09:00"
   },
-  "broker_equity_value_krw": "28998000",
+  "broker_equity_value_krw": "29083000",
   "scope": "국내·미국 보유 주식만; 현금·채권·옵션 제외",
-  "calculated_equity_value_krw": "107035742.576110528",
-  "warnings": [],
-  "valuation_at": "2026-09-17T07:19:56.566906+00:00"
+  "calculated_equity_value_krw": "107455397.010498954688",
+  "warnings": [
+    "URA: 오래된 관측 또는 휴장"
+  ],
+  "valuation_at": "2026-09-17T09:02:22.948287+00:00"
 }
