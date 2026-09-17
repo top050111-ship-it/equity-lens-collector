@@ -1,0 +1,4 @@
+pydantic>=2.8,<3
+yfinance>=0.2.65,<2
+websockets>=15,<17
+certifi>=2024.2.2
