@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-09-17T15:57:31.902514+00:00",
+  "scope": "가상 샘플: 주식만, 현금 제외",
+  "positions": [
+    {
+      "symbol": "DEMO-US",
+      "name": "가상 미국 기업",
+      "market": "NASDAQ",
+      "currency": "USD",
+      "quantity": "10",
+      "average_price": "90",
+      "price": "100",
+      "price_at": "2026-09-17T15:57:31.902669+00:00",
+      "price_source": "가상",
+      "price_quality": "최근 관측",
+      "value_krw": "1400000",
+      "weight_pct": 87.5
+    },
+    {
+      "symbol": "000000",
+      "name": "가상 한국 기업",
+      "market": "KOSPI",
+      "currency": "KRW",
+      "quantity": "20",
+      "average_price": "9000",
+      "price": "10000",
+      "price_at": "2026-09-17T15:57:31.902671+00:00",
+      "price_source": "가상",
+      "price_quality": "최근 관측",
+      "value_krw": "200000",
+      "weight_pct": 12.5
+    }
+  ],
+  "fx": {
+    "midRate": "1400",
+    "validFrom": "2026-09-17T15:57:31.902673+00:00",
+    "validUntil": "2099-01-01T00:00:00+00:00"
+  },
+  "broker_equity_value_krw": "1600000",
+  "calculated_equity_value_krw": "1600000",
+  "warnings": [],
+  "valuation_at": "2026-09-17T15:57:31.902735+00:00"
+}

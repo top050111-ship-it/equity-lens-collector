@@ -1,0 +1,117 @@
+{
+  "portfolio": {
+    "status": "ok",
+    "report": {
+      "summary": "가상의 사업 호재를 검토하되 주식 내 비중 집중을 우선 확인합니다.",
+      "findings": [
+        {
+          "subject": "기업 분석 예시",
+          "claim": "가상 미국 종목의 수주 증가 가정이 이익으로 이어지는지 확인해야 합니다.",
+          "kind": "scenario",
+          "evidence_ids": [
+            "Edd03d669d3dd"
+          ],
+          "confidence": "low",
+          "counterpoint": "가상 조건이므로 실제 기업과 시장에 적용할 수 없습니다.",
+          "revisit_when": "실제 공시와 금리 관측치를 확보한 뒤 재평가합니다."
+        }
+      ],
+      "conflicts": [],
+      "watchlist": [
+        "실제 데이터와 분석 모델 연결 후 검증"
+      ],
+      "limitations": [
+        "가상 자료와 미리 작성한 출력입니다. AI 분석을 실행하지 않았습니다."
+      ]
+    }
+  },
+  "macro": {
+    "status": "ok",
+    "report": {
+      "summary": "가상의 금리 상승 환경에서 할인율과 자금 조달 비용의 영향을 검토합니다.",
+      "findings": [
+        {
+          "subject": "거시 분석 예시",
+          "claim": "금리 상승을 가정하면 장기 성장 기대에 의존하는 기업의 가치평가에 부담이 될 수 있습니다.",
+          "kind": "scenario",
+          "evidence_ids": [
+            "E46561c9aa98a"
+          ],
+          "confidence": "low",
+          "counterpoint": "가상 조건이므로 실제 기업과 시장에 적용할 수 없습니다.",
+          "revisit_when": "실제 공시와 금리 관측치를 확보한 뒤 재평가합니다."
+        }
+      ],
+      "conflicts": [],
+      "watchlist": [
+        "실제 데이터와 분석 모델 연결 후 검증"
+      ],
+      "limitations": [
+        "가상 자료와 미리 작성한 출력입니다. AI 분석을 실행하지 않았습니다."
+      ]
+    }
+  },
+  "synthesis": {
+    "status": "ok",
+    "report": {
+      "summary": "사업 호재와 금리 부담이 동시에 존재할 수 있습니다. 현금흐름 개선 여부를 먼저 확인합니다.",
+      "findings": [
+        {
+          "subject": "종합 판단 예시",
+          "claim": "가상 수주 호재만으로 금리 영향을 상쇄한다고 단정할 수 없습니다.",
+          "kind": "scenario",
+          "evidence_ids": [
+            "Edd03d669d3dd",
+            "E46561c9aa98a"
+          ],
+          "confidence": "low",
+          "counterpoint": "가상 조건이므로 실제 기업과 시장에 적용할 수 없습니다.",
+          "revisit_when": "실제 공시와 금리 관측치를 확보한 뒤 재평가합니다."
+        }
+      ],
+      "conflicts": [
+        {
+          "issue": "기업 호재와 거시 부담",
+          "portfolio_view": "가상 수주 호재",
+          "macro_view": "가상 금리 상승",
+          "assessment": "미해결; 이익·현금흐름 자료 필요",
+          "evidence_ids": [
+            "Edd03d669d3dd",
+            "E46561c9aa98a"
+          ]
+        }
+      ],
+      "watchlist": [
+        "실제 데이터와 분석 모델 연결 후 검증"
+      ],
+      "limitations": [
+        "가상 자료와 미리 작성한 출력입니다. AI 분석을 실행하지 않았습니다."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "Edd03d669d3dd",
+      "provider": "가상 자료",
+      "title": "가상 기업 수주 증가 가정",
+      "url": "https://example.com/demo-company",
+      "content": "실제 뉴스가 아닌 기능 시연용 가정",
+      "observed_at": "2026-09-17T15:48:29.787286+00:00",
+      "retrieved_at": "2026-09-17T15:48:29.787373+00:00",
+      "kind": "news"
+    },
+    {
+      "id": "E46561c9aa98a",
+      "provider": "가상 자료",
+      "title": "가상 금리 상승 가정",
+      "url": "https://example.com/demo-macro",
+      "content": "실제 경제지표가 아닌 기능 시연용 가정",
+      "observed_at": "2026-09-17T15:48:29.787379+00:00",
+      "retrieved_at": "2026-09-17T15:48:29.787400+00:00",
+      "kind": "news"
+    }
+  ],
+  "warnings": [],
+  "created_at": "2026-09-17T15:48:29.787697+00:00",
+  "complete": true
+}
